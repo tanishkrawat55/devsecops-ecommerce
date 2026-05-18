@@ -79,7 +79,7 @@ function Login() {
           <div className="form-group">
             <label className="form-label" style={{ display: "flex", justifyContent: "space-between" }}>
               Password
-              <a href="#" style={{ color: "var(--terracotta)", textDecoration: "none", fontWeight: 400, letterSpacing: 0 }}>
+              <a href="/" style={{ color: "var(--terracotta)", textDecoration: "none", fontWeight: 400, letterSpacing: 0 }}>
                 Forgot?
               </a>
             </label>
