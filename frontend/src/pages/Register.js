@@ -117,9 +117,9 @@ function Register() {
               style={{ marginTop: "3px", accentColor: "var(--ink)", cursor: "pointer" }} />
             <label htmlFor="terms" style={{ fontSize: "0.78rem", color: "var(--ink-muted)", lineHeight: 1.6, cursor: "pointer" }}>
               I agree to the{" "}
-              <a href="#" style={{ color: "var(--ink)", textDecoration: "none", fontWeight: 500 }}>Terms of Service</a>
+              <a href="/" style={{ color: "var(--ink)", textDecoration: "none", fontWeight: 500 }}>Terms of Service</a>
               {" "}and{" "}
-              <a href="#" style={{ color: "var(--ink)", textDecoration: "none", fontWeight: 500 }}>Privacy Policy</a>
+              <a href="/" style={{ color: "var(--ink)", textDecoration: "none", fontWeight: 500 }}>Privacy Policy</a>
             </label>
           </div>
 
