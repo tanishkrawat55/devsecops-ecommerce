@@ -302,7 +302,7 @@ const handleAdd = (product) => {
                 <div className="service-num">{svc.num}</div>
                 <h3 className="service-title">{svc.title}</h3>
                 <p className="service-desc">{svc.desc}</p>
-                <a href="#" className="service-link">Learn more →</a>
+                <a href="/" className="service-link">Learn more →</a>
               </div>
             ))}
           </div>
@@ -401,40 +401,40 @@ const handleAdd = (product) => {
             <div className="footer-brand-name">DevSecOps Shop</div>
             <p className="footer-brand-desc">The premier marketplace for cloud-native tools, templates, and infrastructure modules.</p>
             <div className="footer-socials">
-              <a href="#" className="social-btn">𝕏</a>
-              <a href="#" className="social-btn">in</a>
-              <a href="#" className="social-btn">gh</a>
-              <a href="#" className="social-btn">yt</a>
+              <a href="/" className="social-btn">𝕏</a>
+              <a href="/" className="social-btn">in</a>
+              <a href="/" className="social-btn">gh</a>
+              <a href="/" className="social-btn">yt</a>
             </div>
           </div>
           <div>
             <div className="footer-col-title">Products</div>
             <ul className="footer-links">
-              <li><a href="#">Docker Packs</a></li>
-              <li><a href="#">K8s Bundles</a></li>
-              <li><a href="#">Terraform Modules</a></li>
-              <li><a href="#">CI/CD Templates</a></li>
-              <li><a href="#">Security Tools</a></li>
+              <li><a href="/">Docker Packs</a></li>
+              <li><a href="/">K8s Bundles</a></li>
+              <li><a href="/">Terraform Modules</a></li>
+              <li><a href="/">CI/CD Templates</a></li>
+              <li><a href="/">Security Tools</a></li>
             </ul>
           </div>
           <div>
             <div className="footer-col-title">Platform</div>
             <ul className="footer-links">
-              <li><a href="#">Documentation</a></li>
-              <li><a href="#">API Reference</a></li>
-              <li><a href="#">Status</a></li>
-              <li><a href="#">Changelog</a></li>
-              <li><a href="#">Roadmap</a></li>
+              <li><a href="/">Documentation</a></li>
+              <li><a href="/">API Reference</a></li>
+              <li><a href="/">Status</a></li>
+              <li><a href="/">Changelog</a></li>
+              <li><a href="/">Roadmap</a></li>
             </ul>
           </div>
           <div>
             <div className="footer-col-title">Company</div>
             <ul className="footer-links">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
+              <li><a href="/">About</a></li>
+              <li><a href="/">Blog</a></li>
+              <li><a href="/">Careers</a></li>
+              <li><a href="/">Privacy</a></li>
+              <li><a href="/">Terms</a></li>
             </ul>
           </div>
         </div>
