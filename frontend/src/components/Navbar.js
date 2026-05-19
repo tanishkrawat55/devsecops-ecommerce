@@ -43,7 +43,7 @@ function Navbar({ cartCount }) {
   className="nav-link"
   onClick={() => {
     document
-      .getElementById("products")
+      .getElementById("featured-products")
       .scrollIntoView({
         behavior: "smooth"
       });
