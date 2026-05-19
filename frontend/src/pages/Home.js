@@ -190,7 +190,18 @@ const handleAdd = (product) => {
             and infrastructure modules — trusted by engineers at scale.
           </p>
           <div className="hero-actions">
-            <Link to="/products" className="btn-primary">Browse products →</Link>
+            <button
+  className="btn-primary"
+  onClick={() => {
+    document
+      .getElementById("featured-products")
+      .scrollIntoView({
+        behavior: "smooth"
+      });
+  }}
+>
+  Browse Products →
+</button>
             <Link to="/register" className="btn-secondary">Start free</Link>
           </div>
           <div className="hero-stats">
@@ -265,7 +276,8 @@ const handleAdd = (product) => {
       </section>
 
       {/* ── PRODUCTS ── */}
-      <section className="products-section">
+      <section id="featured-products" className="featured-products">
+          <div className="products-container">
         <div className="products-header">
           <div>
             <div className="section-eyebrow">Marketplace</div>
@@ -287,6 +299,7 @@ const handleAdd = (product) => {
           {filtered.map((p, i) => (
             <ProductCard key={p._id} product={p} delay={i * 70} onAdd={handleAdd} />
           ))}
+        </div>
         </div>
       </section>
 
@@ -390,7 +403,18 @@ const handleAdd = (product) => {
         <p className="cta-desc">Join 12,000+ engineers building secure, scalable cloud-native applications.</p>
         <div className="cta-actions">
           <Link to="/register" className="btn-primary">Start for free →</Link>
-          <Link to="/products" className="btn-secondary">Browse products</Link>
+          <button
+  className="btn-primary"
+  onClick={() => {
+    document
+      .getElementById("featured-products")
+      .scrollIntoView({
+        behavior: "smooth"
+      });
+  }}
+>
+  Browse Products →
+</button>
         </div>
       </section>
 

@@ -39,7 +39,18 @@ function Navbar({ cartCount }) {
 
       <div className="navbar-links">
         <Link to="/" className={isActive("/")}>Home</Link>
-        <Link to="/products" className={isActive("/products")}>Products</Link>
+        <button
+  className="nav-link"
+  onClick={() => {
+    document
+      .getElementById("products")
+      .scrollIntoView({
+        behavior: "smooth"
+      });
+  }}
+>
+  Products
+</button>
         <Link to="/services" className="nav-link">Services</Link>
 
         {!token ? (
