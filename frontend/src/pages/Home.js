@@ -153,11 +153,15 @@ function Home() {
 
   const FILTERS = ["All", "Containers", "Security", "Orchestration", "IaC", "CI/CD", "Monitoring"];
 
-  useEffect(() => {
-    axios.get("http://localhost:5000/api/products")
-      .then((res) => { if (res.data?.length) setProducts(res.data); })
-      .catch(() => {});
-  }, []);
+useEffect(() => {
+  axios.get(`${process.env.REACT_APP_API_URL}/users`)
+    .then((res) => {
+      if (res.data?.length) {
+        setProducts(res.data);
+      }
+    })
+    .catch(() => {});
+}, []);
 
   const filtered = activeFilter === "All"
     ? products

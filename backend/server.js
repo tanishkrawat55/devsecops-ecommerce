@@ -40,3 +40,12 @@ app.listen(PORT, () => {
         `Server running on port ${PORT}`
     );
 });
+
+const cors = require('cors');
+
+const corsOptions = {
+  origin: 'http://tnskecom-bucket.s3-website-ap-northeast-1.amazonaws.com/',
+  optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
