@@ -55,6 +55,5 @@ jobs:
           npm install
 
       - name: Backend Check
-        run: |
-          cd backend
-          npm run dev
+  working-directory: ./backend
+  run: node -c server.js
